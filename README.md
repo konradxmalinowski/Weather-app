@@ -1,10 +1,6 @@
 # 🌦️ Weather App
 
-Your simple and intuitive way to check the weather anywhere in the world!
-
-## Project Description
-
-Weather App is a web application that allows users to check current weather conditions, forecasts, and other useful information such as temperature, humidity, or wind speed.
+Your simple and intuitive way to check the weather anywhere in the world! Weather App is a web application that allows users to check current weather conditions, forecasts, and other useful information such as temperature, humidity, or wind speed.
 
 ## Features
 
@@ -32,13 +28,7 @@ This project was created using the following technologies:
    cd Weather-app
    ```
 3. **Open the `index.html` file in your browser**  
-   Done! Now you can start using the application! 🎉
-
-## Future Features
-
-- Integration with maps to select locations  
-- Seamless experience on mobile devices  
-- Dark mode  
+   Done! Now you can start using the application! 🎉  
 
 ## Contact
 
