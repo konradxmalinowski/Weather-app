@@ -2,50 +2,49 @@
 
 Your simple and intuitive way to check the weather anywhere in the world! 🌍✨
 
-## 📋 Project Description
+## Project Description
 
 Weather App is a web application that allows users to check current weather conditions, forecasts, and other useful information such as temperature, humidity, or wind speed.
 
-## ✨ Features
+## Features
 
-- 🌍 **Check the weather for any location worldwide**  
-- 🌡️ **Display current temperature and forecasts for upcoming days**  
-- 💨 **Information about wind, humidity, and other weather factors**  
-- 🎨 **Responsive and user-friendly design**
+- **Check the weather for any location worldwide**  
+- **Display current temperature and forecasts for upcoming days**  
+- **Information about wind, humidity, and other weather factors**  
+- **Responsive and user-friendly design**
 
-## 🛠️ Technologies
+## Technologies
 
 This project was created using the following technologies:
 
-- 🎨 **CSS** - for application styling  
-- 💻 **JavaScript** - for application logic  
-- 📄 **HTML** - for application structure  
+- **CSS** - for application styling  
+- **JavaScript** - for application logic  
+- **HTML** - for application structure  
 
-## 🌟 How to Run the Project?
+## How to Run the Project?
 
-1. 📥 **Clone the repository**  
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/konradxmalinowski/Weather-app.git
    ```
-2. 📂 **Navigate to the project folder**  
+2. **Navigate to the project folder**  
    ```bash
    cd Weather-app
    ```
-3. 🖥️ **Open the `index.html` file in your browser**  
+3. **Open the `index.html` file in your browser**  
    Done! Now you can start using the application! 🎉
 
-## 🚀 Future Features
+## Future Features
 
-- 🌐 Integration with maps to select locations  
-- 📱 Seamless experience on mobile devices  
-- 🕶️ Dark mode  
+- Integration with maps to select locations  
+- Seamless experience on mobile devices  
+- Dark mode  
 
-## 📧 Contact
+## Contact
 
 If you have any questions, feel free to contact me:
 
-- 📧 Email: [Your email]  
-- 🐙 GitHub: [@konradxmalinowski](https://github.com/konradxmalinowski)
+- Email: [malinowski.konrad45@gmail.com](malinowski.konrad45@gmail.com)  
 
 ## License
 ```
