@@ -1,6 +1,6 @@
 # 🌦️ Weather App
 
-Your simple and intuitive way to check the weather anywhere in the world! 🌍✨
+Your simple and intuitive way to check the weather anywhere in the world!
 
 ## Project Description
 
