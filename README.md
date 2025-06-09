@@ -4,39 +4,43 @@ Your simple and intuitive way to check the weather anywhere in the world! Weathe
 
 ## Features
 
-- **Check the weather for any location worldwide**  
-- **Display current temperature and forecasts for upcoming days**  
-- **Information about wind, humidity, and other weather factors**  
+- **Check the weather for any location worldwide**
+- **Display current temperature and forecasts for upcoming days**
+- **Information about wind, humidity, and other weather factors**
 - **Responsive and user-friendly design**
 
 ## Technologies
 
 This project was created using the following technologies:
 
-- **CSS** - for application styling  
-- **JavaScript** - for application logic  
-- **HTML** - for application structure  
+- **CSS** - for application styling
+- **JavaScript** - for application logic
+- **HTML** - for application structure
 
 ## How to Run the Project?
 
-1. **Clone the repository**  
+1. **Clone the repository**
    ```bash
    git clone https://github.com/konradxmalinowski/Weather-app.git
    ```
-2. **Navigate to the project folder**  
+2. **Navigate to the project folder**
    ```bash
    cd Weather-app
    ```
-3. **Open the `index.html` file in your browser**  
-   Done! Now you can start using the application! 🎉  
+3. **Create file API.js and enter your api key to variable API_KEY website => [https://home.openweathermap.org/api_keys](https://home.openweathermap.org/api_keys)**
+   ```js
+   const API_KEY = 'your api key';
+   ```
+4. **Open your project in local server (eg. live server)**
 
 ## Contact
 
 If you have any questions, feel free to contact me:
 
-- Email: [malinowski.konrad45@gmail.com](malinowski.konrad45@gmail.com)  
+- Email: [malinowski.konrad45@gmail.com](malinowski.konrad45@gmail.com)
 
 ## License
+
 ```
 MIT License
 Copyright (c) 2025 Konrad Malinowski
