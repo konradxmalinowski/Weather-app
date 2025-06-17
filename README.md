@@ -29,15 +29,30 @@ This project was created using the following technologies:
    ```bash
    git clone https://github.com/konradxmalinowski/Weather-app.git
    ```
-2. **Navigate to the project folder**
+
+2. **Navigate to the project directory**
+
    ```bash
    cd Weather-app
    ```
-3. **Create file API.js and enter your api key to variable API_KEY website => [https://home.openweathermap.org/api_keys](https://home.openweathermap.org/api_keys)**
+
+3. **Create a file named `API.js` and add your API key**
+   Get your key from [https://home.openweathermap.org/api\_keys](https://home.openweathermap.org/api_keys)
+
    ```js
-   const API_KEY = 'your api key';
+   const API_KEY = 'your_api_key';
+   export { API_KEY };
    ```
-4. **Open your project in local server (eg. live server)**
+
+4. **Open the project in a local server (e.g., using Live Server in VS Code)**
+
+
+<br>
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/a062729b-4c8d-4029-921f-b23b7547f797)
+
+
 
 <br>
 
