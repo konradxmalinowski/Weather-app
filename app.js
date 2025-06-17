@@ -1,4 +1,4 @@
-import { API_KEY } from './API';
+import { API_KEY } from './API.js';
 
 const form = document.querySelector('form');
 const cityInput = document.querySelector('#city-name');
@@ -82,3 +82,5 @@ async function fetchWeatherData(city) {
     console.error('Błąd pobierania danych:', error);
   }
 }
+
+fetchWeatherData('Miami');

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+$colors: (
+  primary: #004d40,
+  primary-light: #357a6e,
+  secondary: #80cbc4,
+  background: #1b1b1b,
+  card-bg: #263238,
+  font-primary: #ffffff,
+  font-secondary: #b0bec5,
+  accent: #ffcc80,
+);
+
+@mixin fleBox($direction: row, $align-items: center, $justify-content: center) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100svh;
+  background-color: map-get($colors, background);
+  color: map-get($colors, font-primary);
+  text-align: center;
+  @include fleBox(column);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0;
+  background: map-get($colors, card-bg);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+
+  form {
+    @include fleBox;
+    gap: 20px;
+  }
+
+  input {
+    background-color: map-get($colors, primary-light);
+    color: var(--clr-font-primary);
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: 1px solid map-get($colors, secondary);
+    outline: none;
+    transition: all 0.3s;
+    margin-left: 5px;
+  }
+
+  input:focus {
+    box-shadow: 0 0 8px map-get($colors, accent);
+    border-color: map-get($colors, accent);
+  }
+
+  button {
+    padding: 10px 17px;
+    background: map-get($colors, accent);
+    color: map-get($colors, background);
+    border: none;
+    border-radius: 7px;
+    font: {
+      size: 16px;
+      weight: bold;
+    }
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  button:hover {
+    background: #ffa726;
+  }
+}
+
+main {
+  width: 400px;
+  padding: 20px;
+  @include fleBox(column);
+  border-radius: 12px;
+  background-color: map-get($colors, card-bg);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+  span {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+.border-top {
+  margin-top: 20px;
+}
+
+.city,
+.temperature {
+  font: {
+    size: 28px;
+    weight: bold;
+  }
+}
+
+.description,
+.humidity {
+  font-size: 20px;
+  color: map-get($colors, font-secondary);
+}
+
+.icon {
+  font: {
+    size: 35px;
+    weight: bold;
+  }
+  color: map-get($colors, accent);
+}
+
+@media (max-width: 500px) {
+  main {
+    width: 90%;
+  }
+
+  header form {
+    flex-direction: column;
+  }
+}
